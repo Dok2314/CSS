@@ -7,6 +7,11 @@
     border: none;
     cursor: pointer;
     margin-right: 8px;
+    transition: opacity, 0.15s;
+}
+
+.request-now-button:hover {
+    opacity: 0.7;
 }
 
 .add-to-cart-button {
@@ -17,6 +22,11 @@
     border-radius: 25px;
     font-size: 18px;
     cursor: pointer;
+    transition: background-color, 0.15s;
+}
+
+.add-to-cart-button:hover {
+    background-color: rgb(203, 173, 17);
 }
 
 .sign-up-button {
@@ -28,6 +38,12 @@
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow, 0.15s;
+}
+
+.sign-up-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .get-started-button {
@@ -39,4 +55,10 @@
     font-weight: bold;
     border-radius: 6px;
     border: none;
+    cursor: pointer;
+    transition: background-color, 0.15s;
+}
+
+.get-started-button:hover {
+    background-color: rgb(106, 62, 175);
 }
