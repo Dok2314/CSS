@@ -1,0 +1,24 @@
+p {
+    font-family: Arial, sans-serif;
+}
+
+.budget {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.currency {
+    color: rgb(96, 96, 96);
+}
+
+.profit {
+    color: #116C31;
+}
+
+.after-hours-amount {
+    color: rgb(96, 96, 96);
+}
+
+.loss {
+    color: darkred;
+}
