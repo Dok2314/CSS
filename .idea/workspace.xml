@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d9ed208-5c8a-435e-93f3-d688e5f4b051" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTube/flexbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/YouTube/flexbox.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YouTube/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/YouTube/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTube/styles/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/YouTube/styles/sidebar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +19,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="63235" />
+    <option name="totalTimeSeconds" value="67627" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,7 +85,8 @@
       <workItem from="1749569190653" duration="3350000" />
       <workItem from="1749648974065" duration="7208000" />
       <workItem from="1749739320123" duration="6767000" />
-      <workItem from="1749827224918" duration="8253000" />
+      <workItem from="1749827224918" duration="8838000" />
+      <workItem from="1750059533555" duration="5282000" />
     </task>
     <servers />
   </component>

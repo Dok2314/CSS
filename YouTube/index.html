@@ -31,17 +31,25 @@
             
             <button class="search-button">
                 <img src="images/search.svg" alt="" class="search-icon">
+                <div class="tooltip">Search</div>
             </button>
 
             <button class="voice-search-button">
                 <img src="images/voice-search-icon.svg" alt="" class="voice-search-icon">
+                <div class="tooltip">Search with your voice</div>
             </button>
         </div>
 
         <div class="right-section">
-            <img src="images/upload.svg" alt="" class="upload-icon">
+            <div class="upload-icon-container">
+                <img src="images/upload.svg" alt="" class="upload-icon">
+                <div class="tooltip">Create</div>
+            </div>
 
-            <img src="images/youtube-apps.svg" alt="" class="youtube-apps-icon">
+            <div class="youtube-apps-icon-container">
+                <img src="images/youtube-apps.svg" alt="" class="youtube-apps-icon">
+                <div class="tooltip">YouTube apps</div>
+            </div>
 
             <div class="notifications-icon-container">
                 <img src="images/notifications.svg" alt="" class="notifications-icon">
@@ -49,6 +57,7 @@
                 <div class="notifications-count">
                     3
                 </div>
+                <div class="tooltip">Notifications</div>
             </div>
 
             <img src="images/my-channel.jpeg" alt="" class="current-user-picture">
@@ -56,7 +65,35 @@
     </div>
 
     <div class="sidebar">
-        Sidebar
+        <div class="sidebar-link">
+            <img src="images/home.svg" alt="">
+            <div>Home</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="images/explore.svg" alt="">
+            <div>Explore</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="images/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="images/originals.svg" alt="">
+            <div>Originals</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="images/youtube-music.svg" alt="">
+            <div>YouTube Music</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="images/library.svg" alt="">
+            <div>Library</div>
+        </div>
     </div>
 
     <div class="video-grid">
@@ -72,7 +109,9 @@
 
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img src="images/channel-1.jpeg" alt="" class="profile-picture">
+                    <a href="https://www.youtube.com/c/mkbhd">
+                        <img src="images/channel-1.jpeg" alt="" class="profile-picture">
+                    </a>
                 </div>
                 <div class="video-info">
                     <p class="video-title">
@@ -80,7 +119,9 @@
                     </p>
 
                     <p class="video-author">
-                        Marques Brownlee
+                        <a href="https://www.youtube.com/c/mkbhd" class="video-author-link">
+                            Marques Brownlee
+                        </a>
                     </p>
 
                     <p class="video-stats">
@@ -102,7 +143,9 @@
 
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img src="images/channel-2.jpeg" alt="" class="profile-picture">
+                    <a href="https://www.youtube.com/c/markiplier">
+                        <img src="images/channel-2.jpeg" alt="" class="profile-picture">
+                    </a>
                 </div>
 
                 <div class="video-info">
@@ -111,7 +154,9 @@
                     </p>
 
                     <p class="video-author">
-                        Markiplier
+                        <a href="https://www.youtube.com/c/markiplier" class="video-author-link">
+                            Markiplier
+                        </a>
                     </p>
 
                     <p class="video-stats">
@@ -133,7 +178,9 @@
 
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img src="images/channel-3.jpeg" alt="" class="profile-picture">
+                    <a href="https://www.youtube.com/user/SSSniperWolf">
+                        <img src="images/channel-3.jpeg" alt="" class="profile-picture">
+                    </a>
                 </div>
                 <div class="video-info">
                     <p class="video-title">
@@ -141,7 +188,9 @@
                     </p>
 
                     <p class="video-author">
-                        SSSniperWolf
+                        <a href="https://www.youtube.com/user/SSSniperWolf" class="video-author-link">
+                            SSSniperWolf
+                        </a>
                     </p>
 
                     <p class="video-stats">
@@ -163,7 +212,9 @@
 
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img src="images/channel-4.jpeg" alt="" class="profile-picture">
+                    <a href="https://www.youtube.com/c/veritasium">
+                        <img src="images/channel-4.jpeg" alt="" class="profile-picture">
+                    </a>
                 </div>
 
                 <div class="video-info">
@@ -172,7 +223,9 @@
                     </p>
 
                     <p class="video-author">
-                        Veritasium
+                        <a href="https://www.youtube.com/c/veritasium" class="video-author-link">
+                            Veritasium
+                        </a>
                     </p>
 
                     <p class="video-stats">
@@ -194,7 +247,9 @@
 
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img src="images/channel-5.jpeg" alt="" class="profile-picture">
+                    <a href="https://www.youtube.com/c/CSDojo">
+                        <img src="images/channel-5.jpeg" alt="" class="profile-picture">
+                    </a>
                 </div>
                 <div class="video-info">
                     <p class="video-title">
@@ -202,7 +257,9 @@
                     </p>
 
                     <p class="video-author">
-                        CS Dojo
+                        <a href="https://www.youtube.com/c/CSDojo" class="video-author-link">
+                            CS Dojo
+                        </a>
                     </p>
 
                     <p class="video-stats">
@@ -224,7 +281,9 @@
 
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img src="images/channel-6.jpeg" alt="" class="profile-picture">
+                    <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+                        <img src="images/channel-6.jpeg" alt="" class="profile-picture">
+                    </a>
                 </div>
 
                 <div class="video-info">
@@ -233,7 +292,9 @@
                     </p>
 
                     <p class="video-author">
-                        MrBeast
+                        <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA" class="video-author-link">
+                            MrBeast
+                        </a>
                     </p>
 
                     <p class="video-stats">
@@ -255,7 +316,9 @@
 
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img src="images/channel-7.jpeg" alt="" class="profile-picture">
+                    <a href="https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww">
+                        <img src="images/channel-7.jpeg" alt="" class="profile-picture">
+                    </a>
                 </div>
 
                 <div class="video-info">
@@ -264,7 +327,9 @@
                     </p>
 
                     <p class="video-author">
-                        RealLifeLore
+                        <a href="https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww" class="video-author-link">
+                            RealLifeLore
+                        </a>
                     </p>
 
                     <p class="video-stats">
@@ -286,7 +351,9 @@
 
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img src="images/channel-8.jpeg" alt="" class="profile-picture">
+                    <a href="https://www.youtube.com/channel/UCHAK6CyegY22Zj2GWrcaIxg">
+                        <img src="images/channel-8.jpeg" alt="" class="profile-picture">
+                    </a>
                 </div>
 
                 <div class="video-info">
@@ -295,7 +362,9 @@
                     </p>
 
                     <p class="video-author">
-                        Tech Vision
+                        <a href="https://www.youtube.com/channel/UCHAK6CyegY22Zj2GWrcaIxg" class="video-author-link">
+                            Tech Vision
+                        </a>
                     </p>
 
                     <p class="video-stats">
@@ -317,7 +386,9 @@
 
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img src="images/channel-9.jpeg" alt="" class="profile-picture">
+                    <a href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS">
+                        <img src="images/channel-9.jpeg" alt="" class="profile-picture">
+                    </a>
                 </div>
 
                 <div class="video-info">
@@ -326,7 +397,9 @@
                     </p>
 
                     <p class="video-author">
-                        ThenX
+                        <a href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS" class="video-author-link">
+                            ThenX
+                        </a>
                     </p>
 
                     <p class="video-stats">
@@ -348,7 +421,9 @@
 
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img src="images/channel-10.jpeg" alt="" class="profile-picture">
+                    <a href="https://www.youtube.com/user/businessinsider">
+                        <img src="images/channel-10.jpeg" alt="" class="profile-picture">
+                    </a>
                 </div>
 
                 <div class="video-info">
@@ -357,7 +432,9 @@
                     </p>
 
                     <p class="video-author">
-                        Business Insider
+                        <a href="https://www.youtube.com/user/businessinsider" class="video-author-link">
+                            Business Insider
+                        </a>
                     </p>
 
                     <p class="video-stats">
@@ -379,7 +456,9 @@
 
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img src="images/channel-11.jpeg" alt="" class="profile-picture">
+                    <a href="https://www.youtube.com/c/Destinationtips">
+                        <img src="images/channel-11.jpeg" alt="" class="profile-picture">
+                    </a>
                 </div>
 
                 <div class="video-info">
@@ -388,7 +467,9 @@
                     </p>
 
                     <p class="video-author">
-                        Destination Tips
+                        <a href="https://www.youtube.com/c/Destinationtips" class="video-author-link">
+                            Destination Tips
+                        </a>
                     </p>
 
                     <p class="video-stats">
@@ -410,7 +491,9 @@
 
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img src="images/channel-12.jpeg" alt="" class="profile-picture">
+                    <a href="https://www.youtube.com/teded">
+                        <img src="images/channel-12.jpeg" alt="" class="profile-picture">
+                    </a>
                 </div>
 
                 <div class="video-info">
@@ -419,7 +502,9 @@
                     </p>
 
                     <p class="video-author">
-                        TED-Ed
+                        <a href="https://www.youtube.com/teded" class="video-author-link">
+                            TED-Ed
+                        </a>
                     </p>
 
                     <p class="video-stats">
